@@ -1,0 +1,18 @@
+    
+    List of Avialable Commands
+
+    1. create :-> for creating a table
+    Syntax :-> create table table_name
+
+    2. insert :-> for inserting records in a table
+    Syntax :-> insert into table_name values('column_1_value','column_2_value',.....so on)
+    all column values must be given in this command,otherwise error will be thrown
+
+    3. select :-> for selecting records from a table
+    Syntax :-> 
+    a. for selecting all records :->  select * from table_name
+    b. for selecting only given condition value records :-> select * from table_name where column_name = any_value
+        you can use and|or opertaor for condition on more than one columns
+        For ex :-> select * from table_name where column_name1 = any_value and column_name2 = any_value and so on....
+        * for selecting all columns 
+        for selecting a specific column give column_names seperated by comma(,) 
